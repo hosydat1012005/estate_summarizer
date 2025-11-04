@@ -37,3 +37,5 @@ All summaries are generated dynamically and displayed in the app.
 ```bash
 pip install -r requirements.txt
 streamlit run src/app.py
+```
+On Streamlit Cloud, the API key is securely stored in app secrets, no local .env file needed.
