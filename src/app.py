@@ -3,7 +3,7 @@ import os
 from PyPDF2 import PdfReader
 from summarize import summarize_text
 
-st.set_page_config(page_title="Estate Summarizer", page_icon="📄")
+st.set_page_config(page_title="Estate Summarizer")
 
 st.title("📄 Estate Document Summarizer")
 st.caption("Upload a PDF to get a short summary and extracted information.")
