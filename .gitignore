@@ -1,0 +1,14 @@
+# Ignore virtual environment and cache
+venv/
+__pycache__/
+
+# Ignore data files
+data/uploads/
+data/outputs/
+
+# Ignore environment variables
+.env
+
+# macOS and VSCode junk
+.DS_Store
+.vscode/
